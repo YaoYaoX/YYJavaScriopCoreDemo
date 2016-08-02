@@ -32,7 +32,6 @@
                   @{@"title":@"7.JSExport的使用", @"func":@"jsExportTest"},
                   @{@"title":@"8.为已定义的类扩展协议", @"func":@"extendJSExportProtocal"},
                   @{@"title":@"9.内存处理", @"func":@"memoryTest"}];
-
 }
 
 #pragma mark - Table view data source

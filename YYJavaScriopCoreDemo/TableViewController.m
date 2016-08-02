@@ -8,6 +8,7 @@
 
 #import "TableViewController.h"
 #import "BasicUseController.h"
+#import "JSOCViewController.h"
 
 @interface TableViewController ()
 
@@ -23,7 +24,7 @@
     self.title = @"使用";
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
     
-    self.titleStr = @[@"基本使用"];
+    self.titleStr = @[@"基本使用", @"实战"];
 }
 
 
@@ -58,7 +59,8 @@
         BasicUseController *buc = [[BasicUseController alloc] init];
         [self.navigationController pushViewController:buc animated:YES];
     } else if (indexPath.row == 1){
-    
+        JSOCViewController *jsVC = [[JSOCViewController alloc]init];
+        [self.navigationController pushViewController:jsVC animated:YES];
     }
 }
 @end

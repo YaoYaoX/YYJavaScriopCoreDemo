@@ -17,6 +17,9 @@
 		2573DAE21D42292300180E98 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2573DAE11D42292300180E98 /* TableViewController.m */; };
 		2573DAE51D422D8700180E98 /* BasicUseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2573DAE41D422D8700180E98 /* BasicUseController.m */; };
 		2573DAE81D4230A500180E98 /* OCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 2573DAE71D4230A500180E98 /* OCPerson.m */; };
+		25A7866B1D4F4C1500A14617 /* JSOC.html in Resources */ = {isa = PBXBuildFile; fileRef = 25A7866A1D4F4C1500A14617 /* JSOC.html */; };
+		25A7866F1D4F4F9D00A14617 /* JSOCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A7866D1D4F4F9D00A14617 /* JSOCViewController.m */; };
+		25A786701D4F4F9D00A14617 /* JSOCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25A7866E1D4F4F9D00A14617 /* JSOCViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,10 @@
 		2573DAE41D422D8700180E98 /* BasicUseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicUseController.m; sourceTree = "<group>"; };
 		2573DAE61D4230A500180E98 /* OCPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCPerson.h; sourceTree = "<group>"; };
 		2573DAE71D4230A500180E98 /* OCPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCPerson.m; sourceTree = "<group>"; };
+		25A7866A1D4F4C1500A14617 /* JSOC.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JSOC.html; sourceTree = "<group>"; };
+		25A7866C1D4F4F9D00A14617 /* JSOCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSOCViewController.h; sourceTree = "<group>"; };
+		25A7866D1D4F4F9D00A14617 /* JSOCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSOCViewController.m; sourceTree = "<group>"; };
+		25A7866E1D4F4F9D00A14617 /* JSOCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSOCViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,10 +97,8 @@
 		2573DABA1D4227E700180E98 /* YYJavaScriopCoreDemo */ = {
 			isa = PBXGroup;
 			children = (
-				2573DAE31D422D8700180E98 /* BasicUseController.h */,
-				2573DAE41D422D8700180E98 /* BasicUseController.m */,
-				2573DAE61D4230A500180E98 /* OCPerson.h */,
-				2573DAE71D4230A500180E98 /* OCPerson.m */,
+				25742A461D50AEB40058D61A /* 基本使用 */,
+				25742A471D50AEBA0058D61A /* 实战 */,
 				2573DAE91D42370200180E98 /* main */,
 				2573DABB1D4227E700180E98 /* Supporting Files */,
 			);
@@ -132,6 +137,28 @@
 				2573DAC41D4227E700180E98 /* Main.storyboard */,
 			);
 			name = main;
+			sourceTree = "<group>";
+		};
+		25742A461D50AEB40058D61A /* 基本使用 */ = {
+			isa = PBXGroup;
+			children = (
+				2573DAE31D422D8700180E98 /* BasicUseController.h */,
+				2573DAE41D422D8700180E98 /* BasicUseController.m */,
+				2573DAE61D4230A500180E98 /* OCPerson.h */,
+				2573DAE71D4230A500180E98 /* OCPerson.m */,
+			);
+			name = "基本使用";
+			sourceTree = "<group>";
+		};
+		25742A471D50AEBA0058D61A /* 实战 */ = {
+			isa = PBXGroup;
+			children = (
+				25A7866C1D4F4F9D00A14617 /* JSOCViewController.h */,
+				25A7866D1D4F4F9D00A14617 /* JSOCViewController.m */,
+				25A7866E1D4F4F9D00A14617 /* JSOCViewController.xib */,
+				25A7866A1D4F4C1500A14617 /* JSOC.html */,
+			);
+			name = "实战";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,9 +242,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25A786701D4F4F9D00A14617 /* JSOCViewController.xib in Resources */,
 				2573DACB1D4227E700180E98 /* LaunchScreen.storyboard in Resources */,
 				2573DAC81D4227E700180E98 /* Assets.xcassets in Resources */,
 				2573DAC61D4227E700180E98 /* Main.storyboard in Resources */,
+				25A7866B1D4F4C1500A14617 /* JSOC.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2573DAC31D4227E700180E98 /* ViewController.m in Sources */,
+				25A7866F1D4F4F9D00A14617 /* JSOCViewController.m in Sources */,
 				2573DAC01D4227E700180E98 /* AppDelegate.m in Sources */,
 				2573DAE81D4230A500180E98 /* OCPerson.m in Sources */,
 				2573DABD1D4227E700180E98 /* main.m in Sources */,
@@ -431,6 +461,7 @@
 				2573DADC1D4227E800180E98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2573DADD1D4227E800180E98 /* Build configuration list for PBXNativeTarget "YYJavaScriopCoreDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -439,6 +470,7 @@
 				2573DADF1D4227E800180E98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
