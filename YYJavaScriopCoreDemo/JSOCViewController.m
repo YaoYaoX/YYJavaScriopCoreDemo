@@ -27,7 +27,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSURL *url = [[NSBundle mainBundle] URLForResource:@"test.html" withExtension:nil];
+    NSURL *url = [[NSBundle mainBundle] URLForResource:@"JSOC.html" withExtension:nil];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     self.webview.delegate = self;
     [self.webview loadRequest:request];
