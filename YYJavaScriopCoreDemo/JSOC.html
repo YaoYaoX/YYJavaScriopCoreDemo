@@ -6,6 +6,7 @@
     
     <script type="text/javascript">
         
+        <!--showResult为js中定义的方法-->
         function showResult(resultStr)
         {
             document.getElementById("result").innerText = resultStr;
@@ -24,6 +25,7 @@
                 <font size="5" color="red"> <b id="result"> select </b> </font>
             </div>
             
+            <!--ocObject为一个oc对象，takePicture是一个遵守了JSExport协议的对象方法，因为只有遵守JSExport协议的OC方法才能被js调用-->
             <input id="tpBtn" type="button" value="Select Picture" onclick="ocObject.takePicture();"  />
             <br/>
             <br/>
